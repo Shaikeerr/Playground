@@ -4,11 +4,140 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/nav.css">
+    <link rel="stylesheet" href="assets/css/carousel.css">
 
 </head>
 <body>
-    <img class="star" src="star.png" alt="star">
+    <nav>
+        <div class="nav-links">
+            <a href="#"> Qui-suis-je ? </a>
+            <a href="#"> Compétences </a>
+            <a href="#"> Projets </a>
+            <a href="#"> Liens </a>
+        </div>
+    </nav>
+
+<div class="main">
+    <div class="header_bg">
+        <img class="background" id="bg_1" src="bg_1.png" alt="bg">
+        <img class="background" id="bg_2" src="bg_2.png" alt="bg">
+        <img class="background" id="bg_3" src="bg_3.png" alt="bg">
+    </div>
+    <div class="header">
+        <h1> Noah Calmette </h1>
+        <h2> Développeur Front-End Junior </h2>
+        <div class="music_container">
+            <button class="music_btn" id="music_btn">
+                <img src="Play.png" alt="play">
+            </button>
+            <p> Envie d'une touche sonore ? </p>
+        </div>
+        <img class="arrow" src="arrow.png" alt="arrow">
+    </div>
+    
+    <div class="container about">
+        <h2> Qui-suis-je ? </h2>
+        <div class="container_about">
+            <p> Moi c'est <strong>Noah Calmette</strong>, étudiant en 2e année de <strong>BUT Métiers du Multimédia et de l'Internet</strong>, spécialisé dans le <strong>Développement Web</strong> à l'Université Gustave Eiffel à Champs-sur-Marne.
+            <br><br>
+            Joueur passionné de <strong>Yu-Gi-Oh et de Jeux-Vidéos</strong>, je n'hésite pas à m'en inspirer dans mes projets, que ce soit dans le design ou le code. Je suis aussi un grand fan de musique, en particulier de <strong>Future Funk et de Synthwave</strong>, et je ne peux pas m'empêcher d'en écouter quand je code.
+            <br><br>
+            <strong>Grand amoureux du Javascript</strong>, et des langages Front-end en général, le développement web est pour moi un moyen de créer des choses qui me plaisent dans les univers que j'aime. C'est pourquoi je souhaite devenir <strong>développeur front-end</strong>, pour pouvoir créer des sites et des applications qui pourront me permettre de <strong>transmettre ma passion aux autres.</strong></p>
+            <img src="me.png" alt="me">
+        </div>
+    
+    </div>
+
+    <div class="container skills">
+        <h2> Mes Compétences </h2>
+        <div class="container_skills">
+            <img class="star" src="star.png" alt="star">
+            <div class="carousel"> 
+                <div class="carousel_container">
+                    <div class="carousel_slide">
+                        <div class="slide">
+                            <h3> Langages </h3>
+                            <div>
+                                <img src="html.png" alt="html">
+                                <img src="css.png" alt="css">
+                                <img src="javascript.png" alt="js">
+                                <img src="php.png" alt="php">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <h3> Frameworks </h3>
+                            <div>
+                                <img src="next.png" alt="php">
+                                <img src="d3.png" alt="d3">
+                            </div>
+                        </div>
+                        <div class="slide">
+                            <h3> Logiciels </h3>
+                            <div>
+                                <img src="vsc.png" alt="java">
+                                <img src="psd.png" alt="csharp">
+                                <img src="figma.png" alt="ruby">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="dots">
+                        <div class="dot" id=dot_0">
+                            <div class="dot_active"></div>
+                        </div>
+                        <div class="dot" id="dot_1"></div>
+                        <div class="dot" id="dot_2"></div>
+                    </div>
+                </div>
+                </div>
+
+            </div>
+
+    </div>
+
+    <div class="container projects">
+        <h2> Mes Projets </h2>
+            <div>
+                <div class="project_container">
+
+                </div>
+                <a class="all_projects" href="projets.html" target="_blank"> <h3> Voir tous mes projets</a>
+            </div>
+    </div>
+
+    <div class="container links">
+        <h2> Liens </h2>
+        <div class="container_links">
+            <div class="box_link">
+                <img src="linkedin.png" alt="linkedin">
+                <div class="link_name">
+                     <h3> Linkedin</h3>
+                     <a href="https://linkedin.com/in/noah-calmette/"> linkedin.com/in/noah-calmette/</a>
+                </div>
+            </div>
+            <div class="box_link">
+                <img src="github.png" alt="linkedin">
+                <div class="link_name">
+                     <h3>GitHub</h3>
+                     <a href="https://github.com/Shaikeerr/"> https://github.com/Shaikeerr/</a>
+                </div>
+            </div>
+            <div class="box_link">
+                <img src="email.png" alt="linkedin">
+                <div class="link_name">
+                     <h3> E-Mail </h3>
+                        <a href="mailto:noahcalmette@gmail.com"> noahcalmette@gmail.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
 <script src="script.js"></script>

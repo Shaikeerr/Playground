@@ -1,0 +1,24 @@
+@font-face {
+    font-family: AvenirNextCyr-Bold;
+    src: url('../../fonts/AvenirNextCyr-Bold.ttf');
+}
+
+@font-face {
+    font-family: AvenirNextCyr-Regular;
+    src: url('../../fonts/AvenirNextCyr-Regular.ttf');
+}
+
+@font-face {
+    font-family: AvenirNextCyr-Light; 
+    src: url('../../fonts/AvenirNextCyr-Light.ttf');
+}
+
+@font-face {
+    font-family: MitogenDisplay;
+    src: url(../../fonts/MitogenDisplay.ttf);
+}
+
+@font-face {
+    font-family: Rawgly;
+    src: url(../../fonts/Rawgly.otf);
+}

@@ -1,0 +1,284 @@
+body {
+    background: rgb(255,168,111);
+    background: linear-gradient(0deg, rgba(255,168,111,1) 41%, rgba(212,155,192,1) 100%);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.header {
+    background: rgb(255,168,111);
+    background: linear-gradient(0deg, rgba(255,168,111,1) 0%, rgb(255, 172, 226) 100%);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+
+#bg_1 {
+    z-index : 3;
+}
+
+#bg_2 {
+    z-index : 2;
+}
+
+#bg_3 {
+    z-index : 1;
+}
+
+
+.header h1 {
+    font-size: 8rem;
+    font-family: MitogenDisplay;
+    font-weight: 500;
+    margin: 0;
+    z-index: 10;
+}
+
+.header h2 {
+    font-size: 6rem;
+    font-family: Rawgly;
+    font-weight: 500;
+    margin : 0;
+    z-index: 10;
+}
+
+.music_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+    z-index: 10;
+}
+
+.music_container p {
+    font-size: 3rem;
+    font-family: MitogenDisplay;
+    margin: 0;
+    z-index: 10;
+
+}
+
+.music_btn {
+    font-family: MitogenDisplay;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.arrow {
+    position: relative;
+    top: 150px;
+    z-index: 10;
+}
+
+.container {
+    position: relative;
+    z-index: 10;
+    height: 100vh;
+    padding-left: 100px;
+    padding-right: 100px;   
+}
+
+
+.about {
+    background-color: #F9CDCA;
+}
+
+.container_about {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.container_about p {
+    font-size: 1.75rem;
+    font-family: AvenirNextCyr-Regular;
+}
+
+.container_about p strong {
+    color: #7A517D;
+    font-family: AvenirNextCyr-Bold;    
+}
+
+
+.container h2 {
+    font-size: 8rem;
+    font-family: Rawgly;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.skills {
+    background-color: #FFCEDC;
+}
+
+.skills h2 {
+    font-size: 8rem;
+    font-family: Rawgly;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.container_skills {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+
+.projects {
+    background-color: #E5C0EE;
+}
+
+.projects h2 {
+    font-size: 8rem;
+    font-family: Rawgly;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.links {
+    background-color: #D7A3E9;
+}
+
+.links h2 {
+    font-size: 8rem;
+    font-family: Rawgly;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+.project-box {
+    min-width: 400px;
+    min-height: 400px;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .project-box img {
+    width: 500px;
+    height: 500px;
+    border-radius: 125px;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    border: solid 2px #000
+  }
+
+  .project-box img:hover {
+    border-radius: 100px;
+    transform: scale(1.05);
+  }
+
+  .img-text {
+    font-size: 4rem;
+    font-family: AvenirNextCyr-Regular;
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .all_projects {
+    display: flex;
+    font-size: 4rem;
+    font-family: MitogenDisplay;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    color: black;
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+  }
+
+  .container_links {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 30px;
+  }
+
+  .box_link {
+    display: flex;
+    width: 1250px;
+    height: 225px;
+    border-radius: 25px;
+    border: solid 5px #000;
+    align-items: center;
+  }
+
+  .box_link img {
+    margin-left: 75px;
+    width: 150px;
+    height: 150px;
+  }
+
+  .box_link h3 {
+    font-family: AvenirNextCyr-Bold;
+    font-size: 4rem;
+    margin: 0;
+    margin-left: 75px;
+  }
+
+  .box_link a {
+    font-family: AvenirNextCyr-Regular;
+    font-size: 3rem;
+    color: black;
+    margin-left: 75px;
+  }
+
+  .link_name {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }

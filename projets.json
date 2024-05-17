@@ -1,0 +1,158 @@
+{
+    
+    "Projet1" : {
+        "titre" : "Voyage en Terre Hylienne",
+        "description" : "Voyage en Terre Hylienne est un site de voyage fictif réalisé dans le cadre d'un projet universitaire de BUT MMI. Il nous était demandé de réaliser un site de réservation de produits ou de services. Le monde de Zelda étant un monde que j'apprécie tout particulièrement, avec sa palette de paysages à couper le souffle, il me semblait logique de réaliser ce projet en partant de ce monde comme base. Ainsi, j'ai réalisé un site de réservation de voyage sur le thème de Zelda, qui permet à l'utilisateur de filtrer en fonction du jeu de la série dont les destinations sont issues, et de réserver un voyage en fonction de ses envies, grâce à un envoi de mail automatique.",
+        "short_description" : "Voyage en Terre Hylienne est un site de voyage fictif réalisé dans le cadre d'un projet universitaire de BUT MMI. ",
+        "liens" : {
+            "site" : "https://resaweb.calmette.butmmi.o2switch.site",
+            "github" : "https://github.com/Shaikeerr/ResaWeb"
+        },
+
+        "image" : "resaweb.png",
+        "couleur" : "#FFF",
+        "technos" : {
+            "HTML" : "logos/html.png",
+            "CSS" : "logos/css.png",
+            "PHP" : "logos/php.png",
+            "JS" : "logos/js.png",
+            "VSC" : "logos/vsc.png"
+        },
+        "links" : {
+            "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "CSS" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "PHP" : "https://www.php.net",
+            "JS" : "https://developer.mozilla.org/fr/docs/Web/JavaScript",
+            "VSC" : "https://code.visualstudio.com"
+        },
+        "showcase" : {
+            "image" : " reservations.png",
+            "legende" : "La Page Réservation pour un voyage dans le monde de Breath of the Wild "
+        }
+    },
+
+    "Projet2" : {
+        "titre" : "Refonte Site P5R",
+        "description" : "Dans le cadre d'un sujet de refonte de site web, nous avions la possibilité de choisir un site à refaire. Ainsi, j'ai choisi le site de Persona 5 Royal, car c'est un site qui peut être imaginé de manière différente de ce qu'il est actuellement. Avec ses éléments très destructurés, il était possible de faire quelque chose de bien plus droit, cadré. Et c'est pour cette raison que j'ai choisi de le refaire, sous forme d'un terminal, a la Matrix, avec des éléments graphiques rappelant les plus grands piratages dans les films.",
+        "short_description" : "Dans le cadre d'un sujet de refonte de site web, nous avions la possibilité de choisir un site à refaire. Ainsi, j'ai choisi le site de Persona 5 Royal, car c'est un site qui peut être imaginé de manière différente de ce qu'il est actuellement.",
+        "liens" : {
+            "site" : "https://shorturl.at/tuHIS"
+        },
+        "image" : " refonte.png",
+        "couleur" : "#14ff00",
+        "technos" : {
+            "Figma" : "logos/figma.png",
+            "Photoshop" : "logos/photoshop.png"
+        },
+        "links" : {
+            "Figma":"https://www.figma.com",
+            "Photoshop" : "https://www.adobe.com/fr/products/photoshop.html"
+            
+        },
+        "showcase" : {
+            "image" : " moodboard.png",
+            "legende" : "Moodboard utilisé pour la refonte"
+        }
+    },
+
+    "Projet3" : {
+        "titre" : "Pixel4Charity",
+        "description": "Dans le cadre d'un projet de second semestre de ma formation en BUT MMI, il nous était demandé de réaliser un projet citoyen, et sa communication via un motion design et un site web sous Wordpress. Ainsi, étant plus à l'aise avec le Développement Web, j'ai décidé avec un autre membre de mon groupe de réaliser le site Wordpress. Ainsi, nous avons crée Pixel4Charity, une LAN caritative, dont les bénéfices seraient reversés à l'association \"1001Fontaines\" qui permet aux populations défavorisées d'avoir accès à l'eau potable.",
+        "short_description" : "Dans le cadre d'un projet de second semestre de ma formation en BUT MMI, il nous était demandé de réaliser un projet citoyen, et sa communication via un motion design et un site web sous Wordpress.",
+        "liens" : {
+            "site" : "http://www.pixel4charity.midey.butmmi.o2switch.site"
+        },
+        "image" : " pixel4charity_square.png",
+        "couleur" : "#fed869",
+        "technos" : {
+            "HTML" : "logos/html.png",
+            "CSS" : "logos/css.png",
+            "Wordpress" : "logos/wordpress.png",
+            "Figma":"logos/figma.png"
+        },
+        "links" : {
+            "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "CSS" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "Wordpress" : "https://fr.wordpress.org",
+            "Figma":"https://www.figma.com"
+
+        },
+        "showcase" : {
+            "image" : " pixel4charity.png",
+            "legende" : "Page d'accueil du site Wordpress"
+        }
+    },
+
+    "Projet4" : {
+        "titre" : "Dataviz",
+        "description": "Dans le cadre d'un projet universitaire de Data Visualisation nommé \"Dataviz\", nous avons choisi de réaliser un site de visualisation de données sur l'évolution de l'esport à travers les années. Pour cela, quoi de mieux que de montrer la progression des revenus redistribués aux joueurs à la suite de compétitions, car c'est le moyen le plus efficace d'évaluer la santé d'un jeu-vidéo en matière d'esport.",
+        "short_description" : "Dans le cadre d'un projet universitaire de Data Visualisation nommé \"Dataviz\", nous avons choisi de réaliser un site de visualisation de données sur l'évolution de l'esport à travers les années.",
+        "liens" : {
+            "site" : "http://dataviz.shaikeerr.tech",
+            "github" : "https://github.com/Shaikeerr/Dataviz"
+        },
+        "image" : " dataviz.png",
+        "couleur" : "#4c2061",
+        "technos" : {
+            "HTML" : "logos/html.png",
+            "CSS" : "logos/css.png",
+            "D3" : "logos/d3.png",
+            "JS" : "logos/js.png",
+            "VSC" : "logos/vsc.png",
+            "Figma":"logos/figma.png"
+        },
+        "links" : {
+            "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "CSS" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "D3" : "https://d3js.org",
+            "JS" : "https://developer.mozilla.org/fr/docs/Web/JavaScript",
+            "VSC" : "https://code.visualstudio.com",
+            "Figma":"https://www.figma.com"
+
+        },
+        "showcase" : {
+            "image" : " graphique.png",
+            "legende" : "Graphique obtenu pour l'année 2023 avec focus sur Dota 2 premier au classement."
+        }
+    },
+
+    "Projet5" : {
+        "titre" : "Save Earty",
+        "description": "Save Earty est un projet réalisé pour la Nuit de l'Info à l'IUT de Meaux. La Nuit de l'Info comme son nom l'indique, consiste en une nuit complète dédiée au développement d'une application Web. Cette année, le thème était centré sur le Climat. Ainsi, avec mon groupe, nous avons décidé de réaliser un site de sensibilisation sur le climat, avec un jeu de type Quiz pour tester ses connaissances sur le sujet.",
+        "short_description" : "Save Earty est un projet réalisé pour la Nuit de l'Info à l'IUT de Meaux. La Nuit de l'Info comme son nom l'indique, consiste en une nuit complète dédiée au développement d'une application Web.",
+        "liens" : {
+            "site" : "http://saveearty.com",
+            "github" : "https://github.com/LeanaLIM/SaveEarty"
+        },
+        "image" : " saveearty.png",
+        "couleur" : "#FFD439",
+        "technos" : {
+            "HTML" : "logos/html.png",
+            "CSS" : "logos/css.png",
+            "JS" : "logos/js.png",
+            "VSC" : "logos/vsc.png",
+            "Figma":"logos/figma.png"
+        },
+        "links" : {
+            "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "CSS" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "JS" : "https://developer.mozilla.org/fr/docs/Web/JavaScript",
+            "VSC" : "https://code.visualstudio.com",
+            "Figma":"https://www.figma.com"
+
+        },
+        "showcase" : {
+            "image" : " saveearty_front.png",
+            "legende" : "Page d'accueil du site Save Earty"
+        }
+    }
+
+
+
+
+    
+
+
+
+        
+}

@@ -125,6 +125,11 @@
     height: initial;
 }
 
+.container {
+    height: initial;
+    padding-bottom: 50px;
+}
+
 .project_box_3 {
     display: none;
 }

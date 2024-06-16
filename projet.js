@@ -16,7 +16,8 @@ console.log(url)
             document.querySelector('.image_projet').innerHTML += "<img class=img_projet src=assets/img/projects/" + data["image"] +" alt='image projet'><br>"
             document.querySelector('.liens_projet').innerHTML += "<a class=bouton-lien href=" + data["liens"]["site"] +"> <img class='logo_lien' src='assets/img/technos/website.png'><p>Site Web</p> </a><br>"
             if (data["liens"]["github"] != null) {
-                document.querySelector('.liens_projet').innerHTML += "<a class=bouton-lien href=" + data["liens"]["github"] +"> <img class='logo_lien' src='assets/img/technos/github.png'><p>Github</p> </a><br>"
+                document.querySelector('.liens_projet').innerHTML += "<a class=bouton-lien href=" + data["liens"]["github"] +"> <img class='logo_lien' src='assets/img/technos/github.png'><p>Github</p> </a><br>";
+
             }
             document.querySelector('.phone-only').innerHTML += "<a class=bouton-lien href=" + data["liens"]["site"] +"> <img class='logo_lien' src='logos/website.png'><p>Site Web</p> </a><br>"
             if (data["liens"]["github"] != null) {

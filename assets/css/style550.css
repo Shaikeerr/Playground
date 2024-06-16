@@ -89,7 +89,7 @@
 }
 
 .music_container {
-    margin-top: 50px;
+    margin-top: 25px;
     display: flex;
     flex-direction: column-reverse;
     gap: 15px;
@@ -106,7 +106,7 @@
 
 .arrow {
     width: 50px;
-    top: 40px;
+    top: 30px;
 }
 
 #links {

@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    background-color: rgb(254, 219, 255)
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+
+}
+
+.header {
+    background: rgb(255,168,111);
+    background: linear-gradient(0deg, rgba(255,168,111,1) 0%, rgb(255, 172, 226) 100%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: 0;
+
+}
+
+
+#bg_1 {
+    z-index : 3;
+}
+
+#bg_2 {
+    z-index : 2;
+}
+
+#bg_3 {
+    z-index : 1;
+
+
+}
+
+.header h1 { 
+    font-size: 8rem;
+    font-family: MitogenDisplay;
+    font-weight: 500;
+    margin: 0;
+    z-index: 10;
+    text-align: center;
+    color: black;
+}
+
+.header h2 {
+    font-size: 5rem;
+    font-family: Rawgly;
+    color: black;
+    text-align: center;
+    font-weight: 500;
+    margin : 0;
+    z-index: 10;
+}
+
+.arrow {
+    position: relative;
+    top: 250px;
+    z-index: 10;
+}
+
+.container {
+    width: 70%;
+    position: relative;
+    top: 15vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.project-box img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.project-box img:not(.logo_lien) {
+    float: left;
+    margin-right: 40px;
+}
+
+.project-box {
+    margin-bottom: 100px;
+    width: 100%;
+}
+
+h3 {    
+    margin: 0;
+    margin-left: 1%;
+    margin-bottom: 10px;
+    font-family: 'Rawgly';
+    font-size: 3.5rem;
+
+}
+
+.project-box p {
+    font-family: AvenirNextCyr-Regular;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    
+}
+
+.bouton-lien {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 40px;
+    background-color: #000000;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: all .5s;
+    border : 1px solid transparent
+}
+
+.bouton-lien p {
+    font-family: 'AvenirNextCyr-Regular';
+    font-size: 1.2rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transition: all .5s;
+
+}
+
+.bouton-lien:hover {
+    background-color: #ffb6c1;
+    border : 1px solid black;
+}
+
+.bouton-lien:hover p {
+    color: black;
+}
+
+.logo_lien{
+    width: 25px !important;
+    height: 25px !important;
+    margin-left: 10px !important;
+    transition: all .5s;
+
+}
+
+.bouton-lien:hover .logo_lien {
+    filter: invert(1)
+}

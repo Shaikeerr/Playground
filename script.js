@@ -8,6 +8,9 @@ let keys;
 let keys_skills;
 let derniersProjetsKeys;
 let burger = "off";
+let musique = new Audio('children_of_the_ruins.mp3');
+let project_box_counter = 0;
+
 
 
 var backgroundTimeline = gsap.timeline();
@@ -69,13 +72,12 @@ function AnimateSlide() {
     }
 }
 
-gsap.to(".arrow", {
-    duration: 1,
-    y: 10,
-    repeat: -1,
-    yoyo: true,
-    ease: "power1.inOut",
-});
+
+
+
+
+
+
 
 
 function animate() {
@@ -138,11 +140,13 @@ document.addEventListener('DOMContentLoaded', function () {
             let projectContainer = document.querySelector('.project_container');
 
             derniersProjetsKeys.forEach(function (key) {
+                project_box_counter++;
                 let projectElement = document.createElement('div');
                 projectElement.classList.add('project-box');
+                projectElement.classList.add('project_box_' + project_box_counter + '');
                 projectElement.id = key;
                 console.log(key);
-                projectElement.innerHTML += "<img src=" + data[key].image + " alt='image projet'><br>"; 
+                projectElement.innerHTML += "<img src='assets/img/projects/" + data[key].image + "' alt='image projet'><br>"; 
                 projectElement.innerHTML += "<p class='img-text'>" + data[key].titre + "</p><br>";
                 
                 // Ajouter un gestionnaire d'événements clic
@@ -155,5 +159,23 @@ document.addEventListener('DOMContentLoaded', function () {
             });
         });
     });
+
+
+    
+    function play_pause() {
+        let element = document.querySelector('.music_btn img');
+        let nav_element = document.querySelector('.nav-item img');
+        console.log(element.src);
+        if (element.src.match("play")) {
+            element.src = "assets/img/icons/pause.svg";
+            musique.play();
+            musique.volume = 0.5;
+        } else {
+            element.src = "assets/img/icons/play.svg";
+            musique.pause();
+        }
+    }
+
+    document.querySelector('.music_btn').addEventListener('click', play_pause);
 
 

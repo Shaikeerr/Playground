@@ -1,0 +1,14 @@
+.carousel {
+    width: 500px;
+}
+
+.dot {
+    cursor: pointer;
+    height: 35px;
+    width: 35px;
+}
+
+.slide div img {
+    width: 100px;
+    height: auto;
+}

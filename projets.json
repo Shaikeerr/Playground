@@ -5,18 +5,18 @@
         "description" : "Voyage en Terre Hylienne est un site de voyage fictif réalisé dans le cadre d'un projet universitaire de BUT MMI. Il nous était demandé de réaliser un site de réservation de produits ou de services. Le monde de Zelda étant un monde que j'apprécie tout particulièrement, avec sa palette de paysages à couper le souffle, il me semblait logique de réaliser ce projet en partant de ce monde comme base. Ainsi, j'ai réalisé un site de réservation de voyage sur le thème de Zelda, qui permet à l'utilisateur de filtrer en fonction du jeu de la série dont les destinations sont issues, et de réserver un voyage en fonction de ses envies, grâce à un envoi de mail automatique.",
         "short_description" : "Voyage en Terre Hylienne est un site de voyage fictif réalisé dans le cadre d'un projet universitaire de BUT MMI. ",
         "liens" : {
-            "site" : "https://resaweb.calmette.butmmi.o2switch.site",
+            "site" : "https://resaweb.shaikeerr.fr",
             "github" : "https://github.com/Shaikeerr/ResaWeb"
         },
 
         "image" : "resaweb.png",
-        "couleur" : "#FFF",
+        "couleur" : "#e1f2d1",
         "technos" : {
-            "HTML" : "logos/html.png",
-            "CSS" : "logos/css.png",
-            "PHP" : "logos/php.png",
-            "JS" : "logos/js.png",
-            "VSC" : "logos/vsc.png"
+            "HTML" : "html.png",
+            "CSS" : "css.png",
+            "PHP" : "php.png",
+            "JS" : "js.png",
+            "VSC" : "vsc.png"
         },
         "links" : {
             "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
@@ -26,7 +26,7 @@
             "VSC" : "https://code.visualstudio.com"
         },
         "showcase" : {
-            "image" : " reservations.png",
+            "image" : "showcase_resaweb.png",
             "legende" : "La Page Réservation pour un voyage dans le monde de Breath of the Wild "
         }
     },
@@ -36,13 +36,13 @@
         "description" : "Dans le cadre d'un sujet de refonte de site web, nous avions la possibilité de choisir un site à refaire. Ainsi, j'ai choisi le site de Persona 5 Royal, car c'est un site qui peut être imaginé de manière différente de ce qu'il est actuellement. Avec ses éléments très destructurés, il était possible de faire quelque chose de bien plus droit, cadré. Et c'est pour cette raison que j'ai choisi de le refaire, sous forme d'un terminal, a la Matrix, avec des éléments graphiques rappelant les plus grands piratages dans les films.",
         "short_description" : "Dans le cadre d'un sujet de refonte de site web, nous avions la possibilité de choisir un site à refaire. Ainsi, j'ai choisi le site de Persona 5 Royal, car c'est un site qui peut être imaginé de manière différente de ce qu'il est actuellement.",
         "liens" : {
-            "site" : "https://shorturl.at/tuHIS"
+            "site" : "http://refonte.shaikeerr.fr"
         },
-        "image" : " refonte.png",
-        "couleur" : "#14ff00",
+        "image" : "refonte.png",
+        "couleur" : "#CCF5DC",
         "technos" : {
-            "Figma" : "logos/figma.png",
-            "Photoshop" : "logos/photoshop.png"
+            "Figma" : "figma.png",
+            "Photoshop" : "photoshop.png"
         },
         "links" : {
             "Figma":"https://www.figma.com",
@@ -50,7 +50,7 @@
             
         },
         "showcase" : {
-            "image" : " moodboard.png",
+            "image" : "showcase_refonte.png",
             "legende" : "Moodboard utilisé pour la refonte"
         }
     },
@@ -62,13 +62,13 @@
         "liens" : {
             "site" : "http://www.pixel4charity.midey.butmmi.o2switch.site"
         },
-        "image" : " pixel4charity_square.png",
-        "couleur" : "#fed869",
+        "image" : "pixel4charity_square.png",
+        "couleur" : "#FBB1C0",
         "technos" : {
-            "HTML" : "logos/html.png",
-            "CSS" : "logos/css.png",
-            "Wordpress" : "logos/wordpress.png",
-            "Figma":"logos/figma.png"
+            "HTML" : "html.png",
+            "CSS" : "css.png",
+            "Wordpress" : "wordpress.png",
+            "Figma":"figma.png"
         },
         "links" : {
             "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
@@ -78,7 +78,7 @@
 
         },
         "showcase" : {
-            "image" : " pixel4charity.png",
+            "image" : "showcase_pixel4charity.png",
             "legende" : "Page d'accueil du site Wordpress"
         }
     },
@@ -88,18 +88,18 @@
         "description": "Dans le cadre d'un projet universitaire de Data Visualisation nommé \"Dataviz\", nous avons choisi de réaliser un site de visualisation de données sur l'évolution de l'esport à travers les années. Pour cela, quoi de mieux que de montrer la progression des revenus redistribués aux joueurs à la suite de compétitions, car c'est le moyen le plus efficace d'évaluer la santé d'un jeu-vidéo en matière d'esport.",
         "short_description" : "Dans le cadre d'un projet universitaire de Data Visualisation nommé \"Dataviz\", nous avons choisi de réaliser un site de visualisation de données sur l'évolution de l'esport à travers les années.",
         "liens" : {
-            "site" : "http://dataviz.shaikeerr.tech",
+            "site" : "http://dataviz.shaikeerr.fr",
             "github" : "https://github.com/Shaikeerr/Dataviz"
         },
-        "image" : " dataviz.png",
-        "couleur" : "#4c2061",
+        "image" : "dataviz.png",
+        "couleur" : "#D5BBF1",
         "technos" : {
-            "HTML" : "logos/html.png",
-            "CSS" : "logos/css.png",
-            "D3" : "logos/d3.png",
-            "JS" : "logos/js.png",
-            "VSC" : "logos/vsc.png",
-            "Figma":"logos/figma.png"
+            "HTML" : "html.png",
+            "CSS" : "css.png",
+            "D3" : "d3.png",
+            "JS" : "js.png",
+            "VSC" : "vsc.png",
+            "Figma":"figma.png"
         },
         "links" : {
             "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
@@ -111,7 +111,7 @@
 
         },
         "showcase" : {
-            "image" : " graphique.png",
+            "image" : "showcase_dataviz.png",
             "legende" : "Graphique obtenu pour l'année 2023 avec focus sur Dota 2 premier au classement."
         }
     },
@@ -124,14 +124,14 @@
             "site" : "http://saveearty.com",
             "github" : "https://github.com/LeanaLIM/SaveEarty"
         },
-        "image" : " saveearty.png",
-        "couleur" : "#FFD439",
+        "image" : "saveearty.png",
+        "couleur" : "#F0DBBB",
         "technos" : {
-            "HTML" : "logos/html.png",
-            "CSS" : "logos/css.png",
-            "JS" : "logos/js.png",
-            "VSC" : "logos/vsc.png",
-            "Figma":"logos/figma.png"
+            "HTML" : "html.png",
+            "CSS" : "css.png",
+            "JS" : "js.png",
+            "VSC" : "vsc.png",
+            "Figma":"figma.png"
         },
         "links" : {
             "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
@@ -142,13 +142,103 @@
 
         },
         "showcase" : {
-            "image" : " saveearty_front.png",
+            "image" : "showcase_save_earty.png",
             "legende" : "Page d'accueil du site Save Earty"
         }
+    },
+
+    "Projet6" : {
+        "titre" : "Refonte ENT",
+        "description" : "Dans le cadre d'un projet de 3e semestre de ma formation, il nous a été demandé de réaliser en groupe la refonte de notre espace numérique de travail. En tant que seul développeur web de mon groupe, pour deux issus de la création numérique, j'ai du intégralement développer le site dans un laps de temps assez court. Ainsi,nous avons choisi de réaliser un site avec une esthétique orientée Y2K, avec des éléments graphiques et des couleurs rappelant les débuts du web.", 
+        "short_description" : "Dans le cadre d'un projet de 3e semestre de ma formation, il nous a été demandé de réaliser en groupe la refonte de notre espace numérique de travail. En tant que seul développeur web de mon groupe, pour deux issus de la création numérique, j'ai du intégralement développer le site dans un laps de temps assez court.",
+        "liens" : {
+            "site" : "https://ent.shaikeerr.fr",
+            "github" : "https://github.com/Shaikeerr/ENT"
+        },
+        "image" : "ent.png",
+        "couleur" : "#CCF2F5",
+        "technos" : {
+            "HTML" : "html.png",
+            "CSS" : "css.png",
+            "PHP" : "php.png",
+            "VSC" : "vsc.png",
+            "Figma":"figma.png"
+        },
+        "links" : {
+            "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "CSS" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "PHP" : "https://www.php.net",
+            "VSC" : "https://code.visualstudio.com",
+            "Figma":"https://www.figma.com"
+
+        },
+        "showcase" : {
+            "image" : "showcase_ent.png",
+            "legende" : "Page d'accueil de l'ENT"
+        }
+    },
+
+    "Projet7" : {
+        "titre" : "Ohana Café",
+        "description" : "Jouant beaucoup au MMORPG Final Fantasy XIV, appréciant beaucoup son aspect assez communautaire, via la possibilité de transformer sa maison en toutes sorte de lieux publics (café, restaurant, etc), j'ai décidé de réaliser un site permettant de faire la promotion d'un café en jeu nommé Ohana Café. Ainsi, ce site présente tout ce que l'on attend d'un site promotionnel pour un café, avec une carte, le staff, ou une présentation rapide du café, ainsi que d'un back-office pour faciliter la gestion du site pour le propriétaire du café.",
+        "short_description" : "Jouant beaucoup au MMORPG Final Fantasy XIV, appréciant beaucoup son aspect assez communautaire, via la possibilité de transformer sa maison en toutes sorte de lieux publics (café, restaurant, etc), j'ai décidé de réaliser un site permettant de faire la promotion d'un café en jeu nommé Ohana Café.",
+        "liens" : {
+            "site" : "http://ohanaffxiv.com",
+            "github" : "https://github.com/Shaikeerr/Ohana"
+        },
+        "image" : "ohana.png",
+        "couleur" : "#DEBACA",
+        "technos" : {
+            "HTML" : "html.png",
+            "CSS" : "css.png",
+            "PHP" : "php.png",
+            "VSC" : "vsc.png",
+            "Figma":"figma.png"
+        },
+        "links" : {
+            "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "CSS" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "PHP" : "https://www.php.net",
+            "VSC" : "https://code.visualstudio.com",
+            "Figma":"https://www.figma.com"
+
+        },
+        "showcase" : {
+            "image" : "showcase_ohana.png",
+            "legende" : "Page d'accueil du site"
+        }
+    },
+
+    "Projet8" : {
+        "titre" : "Rosa Bonheur",
+        "description" : "À travers leurs yeux est le nom d'une exposition virtuelle réalisée dans le cadre d'un projet universitaire de groupe pendant le 4e semestre de ma formation en BUT MMI. Le but de ce projet était de réaliser une exposition virtuelle mettant en valeur une femme peintre et de réaliser un site web pour la présenter. Ainsi, je me suis occupé de la réalisation de la partie réservation de l'exposition, ainsi que de la traduction du site en anglais.", 
+        "short_description" : "À travers leurs yeux est le nom d'une exposition virtuelle réalisée dans le cadre d'un projet universitaire de groupe pendant le 4e semestre de ma formation en BUT MMI.",
+        "liens" : {
+            "site" : "https://atraversleursyeux.kleio-agence.fr",
+            "github" : "https://github.com/dainay/site-expo"
+        },
+        "image" : "rosa_bonheur.png",
+        "couleur" : "#E8D3C5",
+        "technos" : {
+            "HTML" : "html.png",
+            "CSS" : "css.png",
+            "PHP" : "php.png",
+            "VSC" : "vsc.png",
+            "Figma":"figma.png"
+        },
+        "links" : {
+            "HTML" : "https://developer.mozilla.org/en-US/docs/Web/HTML",
+            "CSS" : "https://developer.mozilla.org/en-US/docs/Web/CSS",
+            "PHP" : "https://www.php.net",
+            "VSC" : "https://code.visualstudio.com",
+            "Figma":"https://www.figma.com"
+
+        },
+        "showcase" : {
+            "image" : "showcase_rosa_bonheur.png",
+            "legende" : "Page de réservation du site"
+        }
     }
-
-
-
 
     
 

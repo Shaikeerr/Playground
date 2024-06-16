@@ -1,11 +1,24 @@
+
+html {
+    scroll-behavior: smooth;
+
+}
+
+::selection {
+    background-color: #b977cf;
+    color: white;
+}
+
 body {
     background: rgb(255,168,111);
     background: linear-gradient(0deg, rgba(255,168,111,1) 41%, rgba(212,155,192,1) 100%);
     margin: 0;
     display: flex;
     justify-content: center;
+    overflow-x: hidden;
 
 }
+
 
 
 .header {
@@ -48,11 +61,21 @@ body {
     font-weight: 500;
     margin: 0;
     z-index: 10;
+    text-align: center;
+    background-color: black;
+    color: white;
+    transform:rotate(-2deg);
+    width: 100vw;
 }
 
 .header h2 {
     font-size: 6rem;
     font-family: Rawgly;
+    background-color: black;
+    color: white;
+    width: 100vw;
+    text-align: center;
+    transform: rotate(2deg);
     font-weight: 500;
     margin : 0;
     z-index: 10;
@@ -72,6 +95,7 @@ body {
     font-family: MitogenDisplay;
     margin: 0;
     z-index: 10;
+    transition: all .5s;
 
 }
 
@@ -80,7 +104,13 @@ body {
     background-color: transparent;
     border: none;
     cursor: pointer;
+    transition: all .25s;
 }
+
+.music_btn:hover {
+    transform: scale(1.1);
+}
+
 
 .arrow {
     position: relative;
@@ -91,9 +121,8 @@ body {
 .container {
     position: relative;
     z-index: 10;
-    height: 100vh;
-    padding-left: 100px;
-    padding-right: 100px;   
+    height: 90vh;  
+    padding-top: 10vh;
 }
 
 
@@ -102,6 +131,8 @@ body {
 }
 
 .container_about {
+    padding-left: 50px;
+    padding-right: 50px;
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -110,6 +141,7 @@ body {
 }
 
 .container_about p {
+
     font-size: 1.75rem;
     font-family: AvenirNextCyr-Regular;
 }
@@ -117,6 +149,86 @@ body {
 .container_about p strong {
     color: #7A517D;
     font-family: AvenirNextCyr-Bold;    
+}
+
+.container_about img {
+    width: 30%;
+    height: 30%;
+    border-radius: 125px;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  .container_about img:hover {
+    border-radius: 100px;
+    transform: scale(1.05);
+  }
+
+  .container_about h2 {
+    font-size: 8rem;
+    font-family: Rawgly;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .container_about h3 {
+    font-size: 4rem;
+    font-family: AvenirNextCyr-Bold;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .container_about h4 {
+    font-size: 3rem;
+    font-family: AvenirNextCyr-Bold;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .container_about h5 {
+    font-size: 2rem;
+    font-family: AvenirNextCyr-Bold;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .container_about h6 {
+    font-size: 1.5rem;
+    font-family: AvenirNextCyr-Bold;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .container_about h7 {
+    font-size: 1rem;
+    font-family: AvenirNextCyr-Bold;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .container_about h8 {
+    font-size: 0.5rem;
+    font-family: AvenirNextCyr-Bold;
+    text-align: center;
+    padding-top: 50px;
+    font-weight: 500;
+    margin: 0;
+  }
+
+  .container_about h9 {
+    font-size: 0.25rem;
+    font-family: A
 }
 
 
@@ -165,7 +277,7 @@ body {
 }
 
 .links {
-    background-color: #D7A3E9;
+    background-color: #d7a3e9;
 }
 
 .links h2 {
@@ -187,13 +299,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
     margin-top: 30px;
 }
 
 .project-box {
-    min-width: 400px;
-    min-height: 400px;
     margin: auto;
     background-color: rgba(0, 0, 0, 0);
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -205,8 +315,8 @@ body {
   }
 
   .project-box img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     border-radius: 125px;
     transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     border: solid 2px #000
@@ -237,45 +347,75 @@ body {
   .links {
     display: flex;
     flex-direction: column;
-    align-items: center;
-  
+    align-items: center;  
+    height: 90vh;
   }
 
   .container_links {
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 50px;
   }
 
   .box_link {
     display: flex;
-    width: 1250px;
-    height: 225px;
-    border-radius: 25px;
-    border: solid 5px #000;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    border: solid 2px #000;
+    border-radius: 50px;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+  }
+
+    .box_link:hover {
+        transform: scale(1.05);
+    }
+
+
+    #github:hover {
+        background: rgba(0, 0, 0, 0.5) url('../img/backgrounds/bg_github.png') no-repeat center center;
+        background-size: cover;
+    }
+
+    #linkedin:hover {
+        background : rgba(0,0,0,0.5) url('../img/backgrounds/bg_linkedin.png') no-repeat center center;
+        background-size: cover;
+    }
+
+    #mail:hover {
+        background : rgba(0,0,0,0.5) url('../img/backgrounds/bg_mail.png') no-repeat center center;
+        background-size: cover;
+    }
+
+    .box_link:hover img {
+        filter: invert(100%);
+    }
+
+  .container_links a {
+    text-decoration: none;
+    color: black;
   }
 
   .box_link img {
-    margin-left: 75px;
     width: 150px;
     height: 150px;
+    transition: all 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
   }
 
   .box_link h3 {
     font-family: AvenirNextCyr-Bold;
-    font-size: 4rem;
-    margin: 0;
-    margin-left: 75px;
+    font-size: 3rem;
+    margin: 30px;
+
   }
 
-  .box_link a {
-    font-family: AvenirNextCyr-Regular;
-    font-size: 3rem;
-    color: black;
-    margin-left: 75px;
-  }
 
   .link_name {
     display: flex;

@@ -1,0 +1,64 @@
+main {
+    width: 100vw;
+}
+
+.header h1 {
+    font-size: 6rem;
+}
+
+.header h2 {
+    font-size: 4rem;
+}
+
+.container {
+    max-width: 100vw;
+    margin: 0 auto;
+    padding: 0 20px;
+
+}
+
+.container h2 {
+    font-size: 6rem;
+}
+
+.container_about p {
+    font-size: 1.50rem;
+}
+
+.project-box {
+    border-radius: 10px !important;
+}
+
+.project-box img {
+    width: 300px;
+    height: auto;
+    border-radius: 75px;
+}
+
+.img-text {
+    font-size: 3rem;
+}
+
+.all_projects {
+    font-size: 3rem;
+}
+
+.box_link {
+    width: 300px;
+    height: 300px;
+}
+
+.container_skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 75px;
+    margin-top: 75px;
+
+}
+
+.star {
+    width: 400px;
+    height: 400px;
+}
+

@@ -1,0 +1,13 @@
+.carousel {
+    width: 600px;
+}
+
+.carousel h3 {
+    font-size: 4rem;
+}
+
+.dot {
+    cursor: pointer;
+    height: 45px;
+    width: 45px;
+}

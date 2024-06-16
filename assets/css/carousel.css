@@ -80,3 +80,7 @@
     background-color: #000;
     cursor: pointer;
 }
+
+.carousel_inline {
+    display: none;
+}

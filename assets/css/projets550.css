@@ -1,3 +1,13 @@
+.header_bg {
+    display: none;
+}
+
+.header {
+    background-image: url(../img/backgrounds/bg.png);
+    background-position: center;
+    background-attachment: fixed;
+}
+
 h3 {
     font-size: 2rem;
     text-align: center;

@@ -1,0 +1,11 @@
+.image_projet img:not(.logo_lien) {
+    display: none;
+}
+
+.container_text {
+    margin-left: 0px;
+}
+
+.container {
+    padding: 0;
+}

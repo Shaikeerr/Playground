@@ -89,9 +89,15 @@
 }
 
 .music_container {
+    margin-top: 50px;
     display: flex;
     flex-direction: column-reverse;
     gap: 15px;
+}
+
+.music_btn img {
+    width: 75px;
+    height: 75px;
 }
 
 .music_container p {
@@ -100,7 +106,7 @@
 
 .arrow {
     width: 50px;
-    top: 75px;
+    top: 40px;
 }
 
 #links {
